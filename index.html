@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Lightning Talk | Design to Code</title>
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/night-sky.css">
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Inline|Hind|Montserrat|Open+Sans" rel="stylesheet">
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section id="start" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+				<h1>
+					<span>Lightning Talk</span>
+					Taking Design to Code
+				</h1>
+			</section>
+               <section id="s1" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+				<h1>
+					<span>Before We Get Started</span>
+                         Relationships Are Important.
+				</h1>
+                    <h2>Dev + Design = Magic</h2>
+			</section>
+               <section id="s2" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+				<h1>
+					So We Get This Mockup...
+				</h1>
+			</section>
+               <section id="s3" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+				<h1>
+					Image
+				</h1>
+			</section>
+               <section id="s4" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+				<h1>
+					First Things to Consider
+				</h1>
+                    <ol>
+                         <li>
+                              <strong>Is it designed or spec'd to be responsive?</strong><br />
+                              If so, we need those mocks or to plan for a shift, which may mean working with the designer to explain how responsive works.
+                         </li>
+                         <li>
+                              What should be code and what will be images
+                         </li>
+                         <li>
+                              What functionality does this page have
+                         </li>
+                    </ol>
+			</section>
+               <section id="s5" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+				<h1>
+					Image with these things highlighted
+				</h1>
+			</section>
+               <section id="s6" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+				<h1>
+					Let's Get Started
+				</h1>
+                    <h3>We likely need a grid, unless...</h3>
+                    <ol>
+                         <li>You're up for a challenge and learning something new</li>
+                         <li>Confident in your CSS abilities</li>
+                    </ol>
+			</section>
+               <section id="s7" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+				<h1>
+					Bootstrap
+				</h1>
+                    <h3>Most Common</h3>
+                    <p>Mile High Overview</p>
+			</section>
+               <section id="s8" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+				<h1>
+					Mockup + Bootstrap
+				</h1>
+                    Show images of mockup with grid overlay
+			</section>
+               <section id="s9" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+				<h1>
+					Mockup + Bootstrap
+				</h1>
+                    And images of mockup with grid overlay with gridception
+			</section>
+               <section id="s10" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+				<h1>
+					Mockup + Bootstrap
+				</h1>
+                    And images of mockup with grid overlay with event more gridception
+			</section>
+               <section id="s11" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+				<h1>
+					Start Building The Highest Level Grid
+				</h1>
+                    Make The Grid Around Components, features, and groups of functionality. Highlight the borders of the elements so you can see how the bones looks.
+			</section>
+               <section id="s12" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+				<h1>
+					Image of high level grid + Code Side By Side
+				</h1>
+			</section>
+               <section id="s13" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+				<h1>
+					SMACCS
+				</h1>
+                    Mile High Overview - structure your css based on components
+			</section>
+               <section id="s14" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+				<h1>
+					Approach
+				</h1>
+                    Treat each one of these grid areas as a project, or a story if you're working in agile.
+			</section>
+               <section id="s15" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+                    <h1>Once You Get Comfortable</h1>
+                    <p>Start Researching the performance implications of your decisions</p>
+               </section>
+		</div>
+   </div>
+
+     <script src="lib/js/head.min.js"></script>
+     <script src="js/reveal.js"></script>
+
+     <script>
+		// More info https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			history: true,
+
+			// More info https://github.com/hakimel/reveal.js#dependencies
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+	</script>
+</body>
+</html>
