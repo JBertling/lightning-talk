@@ -38,26 +38,36 @@
                     </div>
 			</section>
                <section id="s2" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
-				<h1>
-					So We Get This Mockup...
-				</h1>
-			</section>
+                    <h1>
+                         Project Roadmap
+                    </h1>
+                    <ol>
+                         <li>Plan</li>
+                         <li class="fragment">Structure</li>
+                         <li class="fragment">Hook it Up</li>
+                    </ol>
+               </section>
                <section id="s3" data-background-image="img/mockup-bare.jpg" data-background-size="contain" data-transition="slide-out fade-out" data-transition-speed="slow">
-			</section>
+                    <!-- TALK ABOUT DIFFERENT WAYS WE GET THE MOCKUP.
+                         - our own idea
+                         - from a designer
+                         - from a client
+                    <!-->
+                    <!-- ASK WHAT THE GROUP SEES - ANYTHING INTERESTING? -->
+               </section>
                <section id="s4" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
 				<h1>
-					First Things to Consider
+					Step 1: Plan
 				</h1>
                     <ol>
                          <li>
-                              <strong>Is it designed or spec'd to be responsive?</strong><br />
-                              If so, we need those mocks or to plan for a shift, which may mean working with the designer to explain how responsive works.
+                              Do we have what we need?
                          </li>
-                         <li>
-                              What should be code and what will be images
+                         <li class="fragment">
+                              Code vs. Images
                          </li>
-                         <li>
-                              What functionality does this page have
+                         <li class="fragment">
+                              Functionality
                          </li>
                     </ol>
 			</section>
@@ -65,65 +75,170 @@
 			</section>
                <section id="s6" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
 				<h1>
-					Let's Get Started
+					Step 2: Structure
 				</h1>
-                    <h3>We likely need a grid, unless...</h3>
-                    <ol>
-                         <li>You're up for a challenge and learning something new</li>
-                         <li>Confident in your CSS abilities</li>
-                    </ol>
+                    <h3>Choose Your Own Adventure</h3>
+                    <!--
+                    Roll your own or use a framework, for the purposes today we're going to assume we've chosen framework
+                    Mention bootstrap - Who's heard about it? Who's used it? Thumbs Up or Down?
+                    -->
 			</section>
                <section id="s7" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
-				<h1>
-					Bootstrap
-				</h1>
-                    <h3>Most Common</h3>
-                    <p>Mile High Overview</p>
-			</section>
-               <section id="s8" data-background-image="img/mockup-grid1.jpg" data-background-size="contain"  data-transition="slide-out fade-out" data-transition-speed="slow">
-			</section>
+               	<h1>
+               		Bootstrap
+               	</h1>
+                    <p class="fragment">Front End Framework with Recognizable Components</p>
+                    <a class="fragment" href="http://getbootstrap.com/examples/theme/" target="_blank">Examples</a>
+               </section>
+               <section id="s8" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+                    <img src="img/tabs.jpg" />
+               </section>
                <section id="s9" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
-				<h1>
-					Mockup + Bootstrap
-				</h1>
-                    And images of mockup with grid overlay with gridception
-			</section>
+                    <img src="img/alerts.jpg" />
+               </section>
                <section id="s10" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
-				<h1>
-					Mockup + Bootstrap
-				</h1>
-                    And images of mockup with grid overlay with event more gridception
-			</section>
+                    <img src="http://dqbgk6hf2uifn.cloudfront.net/_img/a1cae383-c4e8-c471-fd7c-5339a2bb7623_0" style="min-width: 900px;" />
+               </section>
                <section id="s11" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+                    <img src="http://dqbgk6hf2uifn.cloudfront.net/_img/b2850f59-a2a4-ad78-d61e-5339a570dcc4_0" style="min-width: 900px;" />
+               </section>
+               <section id="s12" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+                    <img src="img/grid.jpg" style="min-width: 900px;" />
+               </section>
+               <section id="s13" data-background-image="img/mockup-grid.jpg" data-background-size="contain"  data-transition="slide-out fade-out" data-transition-speed="slow">
+			</section>
+               <section id="s14" data-background-image="img/mockup-grid1.jpg" data-background-size="contain"  data-transition="slide-out fade-out" data-transition-speed="slow">
+			</section>
+               <section id="s15" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
 				<h1>
-					Start Building The Highest Level Grid
+					3: Hook It Up
 				</h1>
-                    Make The Grid Around Components, features, and groups of functionality. Highlight the borders of the elements so you can see how the bones looks.
+                    Build The Grid Around Components, features, and groups of functionality.
 			</section>
-               <section id="s12" data-background-image="img/mockup-divs.jpg" data-background-size="contain"  data-transition="slide-out fade-out" data-transition-speed="slow">
-			</section>
-               <section id="s13" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+               <section id="s16" data-background-image="" data-background-size="contain"  data-transition="slide-out fade-out" data-transition-speed="slow">
+                    <div style="width: 40%; float: left;">
+                         <img src="img/mockup-divs.jpg" style="margin-top: 22px;" />
+                    </div>
+                    <div style="width: 60%; float: left;">
+                         <pre style="padding: 0; margin-top: 0;">
+                              <code>
+<div class="row">
+     <header></header>
+</div>
+<div class="row">
+     <article></article>
+</div>
+<div class="row">
+     <div class="col-md-4"></div>
+     <div class="col-md-4"></div>
+     <div class="col-md-4"></div>
+</div>
+<div class="row">
+     <div class="col-md-6"></div>
+     <div class="col-md-6"></div>
+</div>                              </code>
+                         </pre>
+                    </div>
+               </section>
+               <section id="s17" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
 				<h1>
 					SMACSS
 				</h1>
-                    Mile High Overview - structure your css based on components
+                    <!--
+                    Were introduced to it at the beginning of 301.
+                    Anyone want to tell me what it is?
+                    How comfortable are you with it?
+               -->
 			</section>
-               <section id="s14" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
-				<h1>
-					Approach
-				</h1>
-                    Treat each one of these grid areas as a project, or a story if you're working in agile, but keep
-                    the big picture in focus.
+               <section id="s18" data-background-image="img/mockup-grid1.jpg" data-background-size="contain"  data-transition="slide-out fade-out" data-transition-speed="slow">
+                    <!--
+                    Looking at this mockup, anyone have any thoughts as to how they would use SMACSS?
+                    -->
+               </section>
+               <section id="s19" data-background-image="" data-background-size="contain"  data-transition="slide-out fade-out" data-transition-speed="slow">
+                    <div style="width: 40%; float: left;">
+                         <img src="img/mockup-divs.jpg" style="margin-top: 22px;" />
+                    </div>
+                    <div style="width: 60%; float: left;">
+                         <pre style="padding: 0; margin-top: 0;">
+                              <code>
+<div class="row">
+     <header id="header">
+          <nav id="primary-nav"></nav>
+     </header>
+</div>
+<div class="row">
+     <article id="article"></article>
+</div>
+<div class="row">
+     <div class="col-md-4"></div>
+     <div class="col-md-4"></div>
+     <div class="col-md-4"></div>
+</div>
+<div class="row">
+     <div class="col-md-6"></div>
+     <div class="col-md-6"></div>
+</div>                              </code>
+                         </pre>
+                    </div>
+               </section>
+               <section id="s20" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+                    Treat each one of these areas as a project, or a story.<br />
+                    Keep the big picture in focus.
 			</section>
-               <section id="s15" data-background-image="img/mockup-grid-wip.jpg" data-background-size="contain"  data-transition="slide-out fade-out" data-transition-speed="slow">
+               <section id="s21" data-background-image="img/mockup-order.jpg" data-background-size="contain"  data-transition="slide-out fade-out" data-transition-speed="slow">
                </section>
-               <section id="s16" data-background-image="img/mockup-grid-wip2.jpg" data-background-size="contain"  data-transition="slide-out fade-out" data-transition-speed="slow">
+               <section id="s22" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+                    <h1>What Did We Do?</h1>
+                    <ol>
+                         <li class="fragment">Planned.</li>
+                         <li class="fragment">Structured.</li>
+                         <li class="fragment">Built.</li>
+                    </ol>
                </section>
-               <section id="s17" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
-                    <h1>Once You Get Comfortable</h1>
-                    <p>Start Researching the performance implications of your decisions</p>
+               <section id="s23" data-background-image="" data-transition="slide-out fade-out" data-transition-speed="slow">
+                    <p>jbertling.github.io/lightning-talk</p>
                </section>
 		</div>
+          <!--
+          WHO WHAT WHY FOR GRID, SMACSS, BOOTSTRAP
+               mostly on how  - show what would go where for smacss, bootstrap
+               (check) show bootstrap components, what they look like, how they come out of the box
+
+               <check)more explicit about grid components (ie. gutters, easy to show in visual)
+
+               show more code!
+
+          (check) ask for definition of bootstrap, if anyones used, anywere else we can increase interaction
+
+          (check) big opportunity for interaction around smacss, what would be what type (component, etc. and why)
+
+          quick story about passion or experience
+
+          (no a) you say um... like a lot
+
+          (check) have roadmap slide, these are the steps, end with how we've done those. (is the "things to consider slide that?")
+          (check) reduce the 3 to one or two words
+
+          (check) strong finish - questions after applause
+          (NO A)embrace the silence
+
+     -->
+
+<!--
+
+     SHOW RESPONSIVE EXAMPLES
+     Eye contact thumbs up
+     Thumb meter
+     Wait til you get a few responses - anyone else?
+     Wait longer for questions - count to 30
+     Get people to repeat what you've already said
+
+     Bootstrap in your own words before showing definition - fade in
+     Dont tell them things are easy or simple
+
+     dont say hard or difficult, say complex or challenging
+-->
    </div>
 
      <script src="lib/js/head.min.js"></script>
